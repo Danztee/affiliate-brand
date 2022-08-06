@@ -1,0 +1,33 @@
+.stats {
+  background: #f1f0f0;
+  padding-bottom: 3.5rem;
+  font-size: $font-primary;
+  text-transform: capitalize;
+
+  &__main {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 3rem;
+
+    @media only screen and (max-width: $bp-small) {
+      flex-direction: column;
+      // padding-top: 1rem;
+    }
+  }
+
+  &__para {
+    display: flex;
+    justify-content: center;
+    // margin-top: 2rem;
+    font-size: 1.2rem;
+  }
+
+  .list__box i {
+    color: $color-primary;
+  }
+}
+
+.heading-3 {
+  font-size: 2rem;
+}

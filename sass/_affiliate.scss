@@ -1,0 +1,23 @@
+.affiliate {
+  background: #f1f1f1;
+
+  &__heading {
+    padding-top: 7rem;
+  }
+
+  &__list {
+    padding-bottom: 7rem;
+    .list__box {
+      &__details {
+        h3 {
+          color: $color-primary;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
+
+.affiliate-logo {
+  width: 80px;
+}

@@ -1,0 +1,40 @@
+#navbar {
+  background-color: #fff !important;
+  min-height: 7rem !important;
+}
+
+#nav-bar {
+  margin: 0 auto;
+
+  .nav-item a {
+    color: $color-primary !important;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: $font-primary;
+    margin-left: 2rem;
+
+    &:hover {
+      color: $color-secondary !important;
+    }
+  }
+}
+
+#logo {
+  font-size: $font-primary;
+  color: $color-secondary;
+  font-size: 20px;
+}
+
+.nav__heading {
+  @extend %heading;
+  font-size: 3rem;
+  line-height: 1.3;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: $color-secondary;
+  font-weight: 600;
+  min-height: 7rem !important;
+}
